@@ -1,0 +1,27 @@
+body{
+  background: rgba(55, 65, 73);
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 300px;
+}
+
+.login-containers{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+input{
+  box-sizing: border-box;
+  padding: 6px;
+  font-size: 19px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
